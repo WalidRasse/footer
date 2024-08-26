@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+	</head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+	<body>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        font-size: 13px;
+        color: aliceblue;
+        line-height: 1.8;
+	}
+	.footer{
+		padding: 60px 80px;
+		background-color: rgb(73 94 73);
+	}
+	.top,
+	.bottom{
+		display: grid;
+	}
+	.top{
+		grid-template-columns: repeat(3, 1fr);
+		margin-bottom: 100px;
+	}
+	.top > div{
+		margin: 0 10px;
+	}
+	.top .sec3{
+		text-align: center;
+	}
+	.bottom{
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.sec_1 a{
+		text-decoration: none;
+	}
+	.sec_1 p{
+		margin-top: 20px;
+	}
+	.sec_2{
+		text-align: end;
+		margin-top: 10px;
+	}
+	select,
+	option{
+		color: black;
+	}
+	select,
+	.top .sec1 h4{
+		margin-bottom: 15px;
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		font-size: 16px;
+		outline: red;
+	}
+	i.icon{
+		padding: 0 4px;
+		font-size: 25px;
+	}
+	img{
+		width: 40px;
+		height: 18px;
+		border-radius: 2px;
+		margin: 0 3px;
+	}
+	.copy-right{
+		color: #a3a3a3;
+	}
+	
+	@media(max-width : 1200px){
+		.sec3{
+			text-align: center;
+			margin-right: 30px !important;
+		}
+		.footer {
+			padding: 40px 30px;
+		}
+	}
+	@media(max-width : 900px){
+		.sec3{
+			text-align: end;
+		}
+		.footer {
+			padding: 40px 10px;
+		}
+		.sec_1{
+			margin-right: 50px;
+		}
+	}
+	@media(max-width : 780px){
+		.footer{
+			padding: 30px;
+			line-height: 2;
+		}
+		.top,
+		.bottom{
+			grid-template-columns: repeat(1, 1fr);
+		}
+		.top{
+			margin-bottom: 35px !important;
+		}
+		.top div,
+		.bottom .div{
+			margin-bottom: 60px;
+			text-align: center;
+		}
+		.bottom .sec_2{
+			text-align: center;
+		}
+		.sec3{
+			text-align: center !important;
+		}
+		br{
+			display: none;
+		}
+		p, a{
+			line-height: 2;
+		}
+		.sec_1{
+			margin-right: 0;
+		}
+		i.icon{
+			font-size: 31px;
+			margin: 10px 5px;
+		}
+		.sec1 h4{
+			font-size: 20px !important;
+		}
+	}
+		</style>
+		<div class="footer">
+			<div class="top">
+				<div class="sec1 div">
+					<h4>Follow us</h4>
+					<a href="#"><i class="icon icon_ fa-brands fa-square-facebook"></i></a>
+					<a href="#"><i class="icon icon_ fa-brands fa-instagram"></i></a>
+					<a href="#"><i class="icon icon_ fa-brands fa-pinterest"></i></a>
+					<a href="#"><i class="icon icon_ fa-brands fa-square-twitter"></i></a>
+				</div>
+				<div class="sec2 div">
+					<p>The Essential Oil Company 
+						<br>
+						<a href="">5498 SE International Way, 
+							<br>
+							Mileaukie. OR, 97222
+						</a>
+						<br>
+						<br>
+					</p>
+					<p>Office Phone hours: Monday - Friday 9:00 AM to 4:00 PM (Pacific Time)</p>
+					<br>
+					<p>Local pickup hours: Fridays Only 10 AM-2 PM</p>    
+				</div>
+				<div class="sec3 div" style="text-align: justify;">
+					<a href="">info@Essentialoil.com</a>
+					<br>
+					<br>
+					<p>Toll Free : <u>800-729-5912</u></p>
+					<p>In Oregon : <u>503-872-8772</u></p>
+					<p>Outside Us: <u>503-872-8772</u></p>    
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="sec_1 div">
+					<a href="https://www.arganismecosmetics.com/prickly-pear-seed-oil/">About Us <span style="margin: 0 5px;font-weight:bold;">|</span> </a>
+					<a href="">WholeSale <span style="margin: 0 5px;font-weight:bold;">|</span> </a>
+					<a href="">Private Label <span style="margin: 0 5px;font-weight:bold;">|</span> </a>
+					<a href="">Privacy <span style="margin: 0 5px;font-weight:bold;">|</span> </a>
+					<a href="">Policies <span style="margin: 0 5px;font-weight:bold;">|</span> </a>
+					<a href="">SDS Information <span style="margin: 0 5px;font-weight:bold;">|</span> </a>
+					<a href="">Allergens</a>
+					<p class="copy-right">
+						Copyright 2024 The Essential Oil Company
+						<br>
+						Superstore Theme by Out of the Sandbox by Shopify
+					</p>
+				</div>
+				<div class="sec_2">
+					<select name="" id="" class="select">
+						<option value="">United states (USD $)</option>
+						<option value="">United states (USD $)</option>
+						<option value="">United states (USD $)</option>
+					</select>
+					<br>
+					<div class="pay">
+						<a href="#"><img src="AM_EX.jpg" alt="visa card"></a>
+						<a href="#"><img src="https://res.cloudinary.com/dvax6jydd/image/upload/v1724046313/friend-01_mouvny.jpg" alt="visa card"></a>
+						<a href="#"><img src="apple.jpeg" alt="visa card"></a>
+						<a href="#"><img src="discover_.jpg" alt="visa card"></a>
+						<a href="#"><img src="met.jpg" alt="visa card"></a>
+						<a href="#"><img src="gpay.png" alt="visa card"></a>
+						<a href="#"><img src="CIH_.jpg" alt="visa card"></a>
+						<a href="#"><img src="verint_logo.jpeg" alt="visa card"></a>
+						<a href="#"><img src="visa.jpeg" alt="visa card"></a>
+					</div>
+				</div>
+			</div>
+		</div>
